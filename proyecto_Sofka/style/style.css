@@ -1,0 +1,56 @@
+/* Retirar estilos por defecto */
+Html, body {
+  padding: 0;
+  margin: 0;
+}
+/* Display flex para centar horizontal y verticalmente */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilizar recuadro */
+#quiz {
+  background-color: aqua;
+  width: 30rem;
+  padding: 3rem;
+  text-align: center;
+  border-radius: .9rem;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2px 0;
+}
+
+#question {
+  font-size: 1.7rem;
+  color: black;
+}
+
+/* Estilizar botones */
+.button {
+  background-color: white;
+  color: black;
+  width: 250px;
+  font-size: 20px;
+  border-radius: .3rem;
+  padding: 10px 20px;
+  margin: 10px 40px 10px;
+  outline: 0;
+}
+
+/* Aplicando pseudoclase :hover a los botones para facilitar que recuadro estamos marcando */
+.button:hover {
+  cursor: pointer;
+  background: antiquewhite;
+}
+
+#progress {
+  font-size: 20px;
+}
